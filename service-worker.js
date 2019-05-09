@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/dimatkachenkopro/weather-app/precache-manifest.e618d413fab031eef1683549379d081c.js"
+  "/weather-app/precache-manifest.082fbb0e2f5c25d5f1cedba6a9d82afe.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/dimatkachenkopro/weather-app/index.html", {
+workbox.routing.registerNavigationRoute("/weather-app/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
